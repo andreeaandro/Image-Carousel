@@ -11,6 +11,7 @@
 		439F7AC62567AEB60051330E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AC52567AEB60051330E /* ContentView.swift */; };
 		439F7AC82567AEB90051330E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F7AC72567AEB90051330E /* Assets.xcassets */; };
 		439F7ACB2567AEB90051330E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F7ACA2567AEB90051330E /* Preview Assets.xcassets */; };
+		439F7AD82567B15F0051330E /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AD72567B15F0051330E /* TripCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		439F7AC72567AEB90051330E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439F7ACA2567AEB90051330E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		439F7ACC2567AEB90051330E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439F7AD72567B15F0051330E /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				439F7AC52567AEB60051330E /* ContentView.swift */,
+				439F7AD72567B15F0051330E /* TripCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				439F7AC62567AEB60051330E /* ContentView.swift in Sources */,
 				439F7AC42567AEB60051330E /* SwiftUICarousel1App.swift in Sources */,
+				439F7AD82567B15F0051330E /* TripCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
