@@ -15,26 +15,30 @@ struct TripCardView: View {
     
     var body: some View {
         ZStack {
-            Image(imageView)
-                .resizable()
-                .scaledToFill()
-                .overlay(
-                    Text(destinationName)
-                        .font(.system(.headline, design: .rounded))
-                        .fontWeight(.heavy)
-                        .padding(10)
-                        .background(Color.white)
-                        .padding([.bottom, .leading])
-                        .opacity(self.isShowDetails ? 0.0 : 1.0)
-                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .bottomLeading)
-                
-                )
+            GeometryReader { geometry in
+                Image(imageView)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .cornerRadius(self.isShowDetails ? 0 : 15)
+                    .overlay(
+                        Text(destinationName)
+                            .font(.system(.headline, design: .rounded))
+                            .fontWeight(.heavy)
+                            .padding(10)
+                            .background(Color.white)
+                            .padding([.bottom, .leading])
+                            .opacity(self.isShowDetails ? 0.0 : 1.0)
+                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .bottomLeading)
+                    
+                    )
+            }
         }
     }
 }
 
 struct TripCardView_Previews: PreviewProvider {
     static var previews: some View {
-        TripCardView(imageView: "london", destinationName: "London", isShowDetails: .constant(true))
+        TripCardView(imageView: "london", destinationName: "London", isShowDetails: .constant(false))
     }
 }
