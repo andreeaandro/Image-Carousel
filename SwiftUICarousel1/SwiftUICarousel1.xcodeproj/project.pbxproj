@@ -14,6 +14,7 @@
 		439F7AD82567B15F0051330E /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AD72567B15F0051330E /* TripCardView.swift */; };
 		439F7ADB2567BE3C0051330E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7ADA2567BE3C0051330E /* Trip.swift */; };
 		439F7AE12567C3770051330E /* CarouselWithStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AE02567C3770051330E /* CarouselWithStackView.swift */; };
+		439F7AE72567E1DB0051330E /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AE62567E1DB0051330E /* TripDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		439F7AD72567B15F0051330E /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
 		439F7ADA2567BE3C0051330E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		439F7AE02567C3770051330E /* CarouselWithStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselWithStackView.swift; sourceTree = "<group>"; };
+		439F7AE62567E1DB0051330E /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				439F7AC52567AEB60051330E /* ContentView.swift */,
 				439F7AD72567B15F0051330E /* TripCardView.swift */,
+				439F7AE62567E1DB0051330E /* TripDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				439F7ADB2567BE3C0051330E /* Trip.swift in Sources */,
 				439F7AC62567AEB60051330E /* ContentView.swift in Sources */,
+				439F7AE72567E1DB0051330E /* TripDetailView.swift in Sources */,
 				439F7AE12567C3770051330E /* CarouselWithStackView.swift in Sources */,
 				439F7AC42567AEB60051330E /* SwiftUICarousel1App.swift in Sources */,
 				439F7AD82567B15F0051330E /* TripCardView.swift in Sources */,
