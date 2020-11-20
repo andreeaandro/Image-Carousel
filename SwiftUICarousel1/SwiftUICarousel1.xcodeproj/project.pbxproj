@@ -13,6 +13,7 @@
 		439F7ACB2567AEB90051330E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F7ACA2567AEB90051330E /* Preview Assets.xcassets */; };
 		439F7AD82567B15F0051330E /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AD72567B15F0051330E /* TripCardView.swift */; };
 		439F7ADB2567BE3C0051330E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7ADA2567BE3C0051330E /* Trip.swift */; };
+		439F7AE12567C3770051330E /* CarouselWithStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F7AE02567C3770051330E /* CarouselWithStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		439F7ACC2567AEB90051330E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439F7AD72567B15F0051330E /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
 		439F7ADA2567BE3C0051330E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		439F7AE02567C3770051330E /* CarouselWithStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselWithStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				439F7AC72567AEB90051330E /* Assets.xcassets */,
 				439F7ACC2567AEB90051330E /* Info.plist */,
 				439F7AC92567AEB90051330E /* Preview Content */,
+				439F7AE32567C3820051330E /* Other Options */,
 			);
 			path = SwiftUICarousel1;
 			sourceTree = "<group>";
@@ -89,6 +92,14 @@
 				439F7ADA2567BE3C0051330E /* Trip.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		439F7AE32567C3820051330E /* Other Options */ = {
+			isa = PBXGroup;
+			children = (
+				439F7AE02567C3770051330E /* CarouselWithStackView.swift */,
+			);
+			path = "Other Options";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				439F7ADB2567BE3C0051330E /* Trip.swift in Sources */,
 				439F7AC62567AEB60051330E /* ContentView.swift in Sources */,
+				439F7AE12567C3770051330E /* CarouselWithStackView.swift in Sources */,
 				439F7AC42567AEB60051330E /* SwiftUICarousel1App.swift in Sources */,
 				439F7AD82567B15F0051330E /* TripCardView.swift in Sources */,
 			);
