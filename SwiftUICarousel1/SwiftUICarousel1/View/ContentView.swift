@@ -20,8 +20,9 @@ struct ContentView: View {
                         TripCardView(imageView: sampleTrips[index].image, destinationName: sampleTrips[index].destination, isShowDetails: self.$isCardTapped)
                     }
                     .padding(.horizontal, self.isCardTapped ? 0 : 20)
+                    .opacity(self.currentTripIndex == index ? 1.0 : 0.7)
                     .frame(width: outerView.size
-                        .width, height: 500)
+                            .width, height: self.currentTripIndex == index ? (self.isCardTapped ? outerView.size.height : 450) : 400)
                 }
             }
             .frame(width: outerView.size.width, height: outerView.size.height, alignment: .leading)
@@ -45,6 +46,7 @@ struct ContentView: View {
                 : nil
             )
         }
+        .animation(.interpolatingSpring(mass: 0.6, stiffness: 100, damping: 10, initialVelocity: 0.3))
     }
 }
 
